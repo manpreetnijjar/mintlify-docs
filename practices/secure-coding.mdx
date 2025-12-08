@@ -1,0 +1,27 @@
+---
+title: Secure Coding Practices
+---
+
+### Essentials:
+- Validate all input  
+- Never hardcode passwords  
+- Protect API keys  
+- Use environment variables  
+- Sanitize user-submitted data  
+- Avoid outdated libraries  
+- Review code before merging  
+
+## OWASP Top Risks:
+1. Injection attacks  
+2. Broken authentication  
+3. Sensitive data leaks  
+4. XSS  
+5. Misconfigured security  
+6. Vulnerable dependencies  
+
+## Interactive Coding Activity
+Given this unsafe code:
+
+```js
+Password = "admin123"
+query = "SELECT * FROM users WHERE name = '" + username + "';"

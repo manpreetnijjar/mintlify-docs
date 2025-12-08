@@ -14,27 +14,35 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Online Risk Prevention",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "online/threat",
+              "online/email",
+              "online/passwords",
+              "online/device-usage",
+              "online/public-appearance",
+              "online/data-protection"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Secure Practices",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "practices/remote",
+              "practices/secure-communication",
+              "practices/secure-coding"
+            ]
+          },
+          {
+            "group": "Knowledge Base",
+            "pages": [
+              "knowledge/check",
+              "knowledge/certificate"
             ]
           },
           {
