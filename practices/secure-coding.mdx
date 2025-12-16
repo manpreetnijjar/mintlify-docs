@@ -1,27 +1,61 @@
 ---
 title: Secure Coding Practices
 ---
+Core principles for writing secure code and preventing common application vulnerabilities.
+---
 
-### Essentials:
-- Validate all input  
-- Never hardcode passwords  
-- Protect API keys  
-- Use environment variables  
-- Sanitize user-submitted data  
-- Avoid outdated libraries  
-- Review code before merging  
+Secure coding practices reduce the risk of software vulnerabilities that can lead to data breaches, system compromise, and service disruption. Security should be integrated throughout the development lifecycle.
 
-## OWASP Top Risks:
-1. Injection attacks  
-2. Broken authentication  
-3. Sensitive data leaks  
-4. XSS  
-5. Misconfigured security  
-6. Vulnerable dependencies  
+---
 
-## Interactive Coding Activity
-Given this unsafe code:
+## Why It Matters?
 
-```js
-Password = "admin123"
-query = "SELECT * FROM users WHERE name = '" + username + "';"
+Insecure code can result in:
+
+- Unauthorized access to systems and data 
+- Application exploitation and outages 
+- Compliance violations and legal risk 
+
+Most software vulnerabilities are preventable through secure coding habits.
+
+---
+
+## Key Secure Coding Practices
+
+### Input Validation
+- Validate and sanitize all user input 
+- Protect against injection attacks (SQL, XSS, command injection) 
+
+### Authentication & Authorization
+- Use strong password hashing 
+- Enforce least-privilege access 
+- Verify permissions on every request 
+
+### Data Protection
+- Encrypt sensitive data in transit and at rest 
+- Never hardcode credentials or secrets 
+
+### Error Handling & Logging
+- Do not expose system or stack details 
+- Log security-relevant events securely 
+
+### Dependency Management
+- Keep libraries and frameworks up to date 
+- Remove unused or vulnerable dependencies 
+
+---
+
+## Secure Development Habits
+
+- Follow secure coding standards 
+- Perform security-focused code reviews 
+- Use automated security testing tools 
+- Patch vulnerabilities promptly 
+
+---
+
+## Key Takeaway
+
+Secure coding is essential to protecting applications and data.
+
+> **Write code assuming it will be targeted by attackers.**

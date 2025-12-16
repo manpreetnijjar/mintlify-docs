@@ -41,7 +41,7 @@
           {
             "group": "Knowledge Base",
             "pages": [
-              "knowledge/check",
+              "knowledge/quiz-questions",
               "knowledge/certificate"
             ]
           },
